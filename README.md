@@ -1,18 +1,30 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Hello Microverse
+# MY PROFESSIONAL PORTFOLIO
 
-> A basic hello microverse project to test our knowledege on the use of linters.
+> A capstone project that covers all what we have worked on in this particular module .
 
 ## Built With
 
 - HTML
-- Frameworks
-- Technologies used
+- Semantic HTML
+- HTML Forms
+
+- Css
+- positioning
+- PSuedo Classes
+- Flexbox
+
+Javascrpit
+
+- Dom Manipulation and `EventListner` 
+- Arrays and Object
+- Array manipulation with `for-loop`
+
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link]()
 
 ## Getting Started
 
