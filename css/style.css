@@ -1,9 +1,325 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose-compressed-trial');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
-  background-color: black;
+  background-color: #d3d3d3;
+  font-family: 'Roboto', 'cocogoose', sans-serif;
+  color: #272a31;
 }
 
 .header {
-  color: wheat;
-  font-family: Metal Mania, "Times New Roman", Times, serif;
   text-align: center;
+}
+
+.project-logo {
+  width: 76px;
+  height: 64px;
+  border-radius: 76px;
+}
+
+.nav-bar {
+  width: 100%;
+  flex-direction: column;
+  color: #555;
+}
+
+.navigation-link {
+  margin-bottom: 40px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.f-direction-col {
+  flex-direction: column;
+}
+
+.display-none {
+  display: none;
+}
+
+.f-direction-row {
+  flex-direction: row;
+}
+
+.f-wrap {
+  flex-wrap: wrap;
+}
+
+.j-content-btw {
+  justify-content: space-between;
+}
+
+.j-content-cnt {
+  justify-content: center;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.align-items {
+  align-items: center;
+}
+
+.navigation-link {
+  width: 100%;
+}
+
+.toggle-button {
+  position: absolute;
+  right: 0.72rem;
+  top: 0.4rem;
+  z-index: 2;
+  padding: 8px 16px;
+  background-color: #d3d3d3;
+}
+
+.x-button {
+  position: absolute;
+  right: 0.72rem;
+  top: 0.4rem;
+  z-index: 3;
+  background-color: #ec5242;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-right: 24px;
+}
+
+.bar {
+  transition: 0.4s;
+  background-color: #000;
+  display: block;
+  height: 4px;
+  left: 28px;
+  top: 50%;
+  width: 25px;
+}
+
+.bar:first-child {
+  transform: translateY(-4px);
+}
+
+.bar:last-child {
+  transform: translateY(4px);
+}
+
+.nav-ul {
+  flex-direction: column;
+  width: 100%;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  background-color: #ec5242;
+  top: 0;
+  height: 100vh;
+}
+
+.nav-ul-li {
+  margin: 54px 0;
+  color: #fff;
+  font-size: 17px;
+}
+
+
+.nav-li-anchor:hover{
+  background-color:#fff;
+  padding: 6px;
+}
+
+.home-page {
+  background-image: url(../images/refugee.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.home-page-first-div {
+  padding: 14px;
+  margin-bottom: 95px;
+}
+
+.home-page-title {
+  font-size: 27px;
+}
+
+.home-page-header {
+  font-size: 37px;
+}
+
+.red-like-color {
+  color: #ec5242;
+}
+
+.article-paragraph {
+  border: 2px solid #fff;
+  line-height: 27px;
+  margin: 34px 0;
+  padding: 4px;
+}
+
+.date-paragraph {
+  font-size: 21px;
+  font-weight: bolder;
+}
+
+.main-program-div {
+  background-color: #000;
+  color: #fff;
+  margin-top: 46px;
+   background-image: url(../images/bacground-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.main-program-ul {
+  background-color: #272a31;
+  margin: 24px 32px;
+}
+
+.main-program-ul-li {
+  padding: 34px 8px;
+}
+
+.lecture-image {
+  height: 40px;
+}
+
+.topic {
+  font-size: 19px;
+  color: #ec5242;
+}
+
+.join-button {
+  background-color: #ec5242;
+  opacity: 1;
+  padding: 12px 103px;
+  display: block;
+  margin: 0 auto;
+}
+
+.join-anchore:hover {
+  opacity: 0.8;
+}
+
+.featured-speakers-ul {
+  margin: 24px 0;
+}
+
+.featured-speaker-image {
+  height: 100px;
+}
+.lato-font {
+  font-family: 'Lato', sans-serif;
+}
+
+.featured-speakers-li {
+  margin: 0 12px;
+}
+
+.featured-speakers-ul-li {
+  padding: 34px 0;
+}
+
+.featured-speaker-paragraph {
+  line-height: 23px;
+}
+
+.about-body {
+  color: #272a31;
+}
+
+.about-paragraph,
+.about-paragraph-2,
+.about-second-paragraph {
+  line-height: 24px;
+  margin: 14px 0;
+}
+
+.about-paragraph,
+.commmon-goals-div {
+  background-color: #fff;
+}
+
+.about-logo {
+  margin: 45px;
+}
+
+.summit-title {
+  font-size: 23px;
+  margin: 8px;
+}
+
+.about-paragraph-2 {
+  margin-top: 200px;
+}
+
+.summit-first-div {
+  background-color: #fff;
+}
+
+.summit-image-div {
+  background-image: url('../images/summit-1.jpg');
+}
+
+.summit-image-div-2 {
+  background-image: url('../images/refugee-summit-1.jpg');
+}
+
+.summit-img-styles {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80%;
+  height: 216px;
+  margin: 24px auto;
+}
+
+.summit-image-figcaption {
+  background-color: #ec5242;
+  height: 216px;
+  opacity: 0.5;
+  text-align: center;
+  padding: 86px 0;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 19px;
+}
+
+.footer {
+  background-color: #272a31;
+}
+
+.social-media-image {
+  margin: 14px 24px;
+}
+
+.footer-image {
+  height: 72px;
+  margin: 24px;
+}
+
+.footer-2-ul-li {
+  width: 85%;
+}
+
+.mozilla {
+  font-size: 20px;
+  color: #d3d3d3;
+}
+
+.daumakakau {
+  font-size: 18px;
+  color: #555;
+}
+
+.footer-image-title {
+  font-size: 17px;
+}
+
+.footer-ul {
+  width: 90%;
+  margin: 4px auto;
 }
