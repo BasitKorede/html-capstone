@@ -25,6 +25,7 @@ body {
 }
 
 .navigation-link {
+  width: 100%;
   margin-bottom: 40px;
 }
 
@@ -62,10 +63,6 @@ body {
 
 .align-items {
   align-items: center;
-}
-
-.navigation-link {
-  width: 100%;
 }
 
 .toggle-button {
@@ -123,9 +120,8 @@ body {
   font-size: 17px;
 }
 
-
-.nav-li-anchor:hover{
-  background-color:#fff;
+.nav-li-anchor:hover {
+  background-color: #fff;
   padding: 6px;
 }
 
@@ -169,7 +165,7 @@ body {
   background-color: #000;
   color: #fff;
   margin-top: 46px;
-   background-image: url(../images/bacground-image.jpg);
+  background-image: url(../images/bacground-image.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -212,6 +208,7 @@ body {
 .featured-speaker-image {
   height: 100px;
 }
+
 .lato-font {
   font-family: 'Lato', sans-serif;
 }

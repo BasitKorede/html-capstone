@@ -10,11 +10,7 @@
   display: block;
 }
 
-.flex-d-row-lg {
-  flex-direction: row;
-}
-
-.justify-con-btw{
+.justify-con-btw {
   justify-content: space-between;
 }
 
@@ -38,61 +34,61 @@
   margin: 0 8px;
 }
 
-.nav-li-anchor{
-  color: #272A31;
+.nav-li-anchor {
+  color: #272a31;
 }
 
-.article-paragraph{
+.article-paragraph {
   width: 45%;
   margin-left: 65px;
 }
 
-.flex-d-row-lg{
+.flex-d-row-lg {
   flex-direction: row;
   margin: 24px 12px;
 }
 
-.flex-d-col-lg{
+.flex-d-col-lg {
   flex-direction: column;
 }
 
-.main-program-ul{
+.main-program-ul {
   margin: 8px;
   width: 14.5%;
 }
-
 
 .justify-con-cnt-lg {
   justify-content: center;
 }
 
-.main-program-ul-li{
+.main-program-ul-li {
   padding: 14px 8px;
 }
 
-.featured-speakers-ul{
+.featured-speakers-ul {
   width: 100%;
 }
 
-.featured-speakers-ul-li{
+.featured-speakers-ul-li {
   width: 50%;
 }
-.about-paragraph{
+
+.about-paragraph {
   width: 50%;
   margin: 24px auto;
   line-height: 27px;
   padding: 23px;
 }
 
-.about-paragraph-2{
+.about-paragraph-2 {
   margin: 2px 0;
 }
 
-.summit-image-wrapper{
-   width: 60%;
-   margin: 0 auto;
+.summit-image-wrapper {
+  width: 60%;
+  margin: 0 auto;
 }
 
-.summit-img-styles{
+.summit-img-styles {
   margin: 74px 6px;
 }
