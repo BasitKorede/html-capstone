@@ -8,25 +8,22 @@ body {
   color: #272a31;
 }
 
-.header {
-  text-align: center;
-}
-
 .project-logo {
   width: 76px;
   height: 64px;
   border-radius: 76px;
+  margin-left: 72px;
 }
 
 .nav-bar {
   width: 100%;
   flex-direction: column;
   color: #555;
+  background-color: #fff;
 }
 
 .navigation-link {
   width: 100%;
-  margin-bottom: 40px;
 }
 
 .d-flex {
@@ -71,7 +68,7 @@ body {
   top: 0.4rem;
   z-index: 2;
   padding: 8px 16px;
-  background-color: #d3d3d3;
+  background-color: #fff;
 }
 
 .x-button {
@@ -79,7 +76,7 @@ body {
   right: 0.72rem;
   top: 0.4rem;
   z-index: 3;
-  background-color: #ec5242;
+  background-color: #fff;
   font-size: 20px;
   font-weight: bolder;
   margin-right: 24px;
@@ -87,7 +84,7 @@ body {
 
 .bar {
   transition: 0.4s;
-  background-color: #000;
+  background-color: #272a31;
   display: block;
   height: 4px;
   left: 28px;
@@ -109,20 +106,29 @@ body {
   padding: 16px;
   position: fixed;
   z-index: 1;
-  background-color: #ec5242;
+  background-color: #fff;
   top: 0;
   height: 100vh;
 }
 
 .nav-ul-li {
   margin: 54px 0;
-  color: #fff;
   font-size: 17px;
 }
 
+.nav-li-anchor {
+  color: #272a31;
+}
+
+.cc-campaign {
+  border: 2px solid #ec5242;
+  padding: 3px 6px;
+}
+
 .nav-li-anchor:hover {
-  background-color: #fff;
-  padding: 6px;
+  background-color: #000;
+  padding: 12px 17px;
+  color: #fff;
 }
 
 .home-page {
@@ -166,8 +172,8 @@ body {
   color: #fff;
   margin-top: 46px;
   background-image: url(../images/bacground-image.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: round;
+  background-size: contain;
   width: 100%;
 }
 
@@ -189,12 +195,22 @@ body {
   color: #ec5242;
 }
 
+.main-program-button-div {
+  margin-bottom: 50px;
+}
+
 .join-button {
   background-color: #ec5242;
   opacity: 1;
   padding: 12px 103px;
   display: block;
   margin: 0 auto;
+}
+
+.see-program {
+  text-decoration: #fff underline;
+  font-size: 17px;
+  margin: 24px 0;
 }
 
 .join-anchore:hover {
@@ -285,7 +301,7 @@ body {
   font-size: 19px;
 }
 
-.footer {
+.partner {
   background-color: #272a31;
 }
 
@@ -319,4 +335,23 @@ body {
 .footer-ul {
   width: 90%;
   margin: 4px auto;
+}
+
+.footer {
+  background-color: #fff;
+}
+
+.first-footer-paragraph {
+  font-weight: bolder;
+  margin: 24px 0;
+  line-height: 23px;
+}
+
+.second-footer-paragraph {
+  margin: 24px 0;
+  line-height: 23px;
+}
+
+.partner-header {
+  color: #fff;
 }

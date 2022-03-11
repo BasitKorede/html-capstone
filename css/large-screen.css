@@ -18,24 +18,15 @@
   flex-direction: row;
 }
 
-.navigation-link {
-  width: 50%;
-}
-
 .nav-ul {
   height: auto;
   padding: 8px 16px;
   flex-direction: row;
-  width: 50%;
-  background-color: #d3d3d3;
+  width: 75%;
 }
 
 .nav-ul-li {
-  margin: 0 8px;
-}
-
-.nav-li-anchor {
-  color: #272a31;
+  margin: 0 24px;
 }
 
 .article-paragraph {
@@ -45,7 +36,6 @@
 
 .flex-d-row-lg {
   flex-direction: row;
-  margin: 24px 12px;
 }
 
 .flex-d-col-lg {
@@ -53,7 +43,7 @@
 }
 
 .main-program-ul {
-  margin: 8px;
+  margin: 24px 1px;
   width: 14.5%;
 }
 
