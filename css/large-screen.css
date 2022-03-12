@@ -43,6 +43,19 @@
   flex-direction: column;
 }
 
+.home-page-first-div {
+  margin-bottom: 95px;
+  padding: 140px;
+}
+
+.date-paragraph {
+  margin-left: 65px;
+}
+
+.location-paragraph {
+  margin-left: 65px;
+}
+
 .main-program-ul {
   margin: 24px 1px;
   width: 14.5%;

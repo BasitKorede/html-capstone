@@ -131,16 +131,9 @@ body {
   color: #fff;
 }
 
-.home-page {
-  /* background-image: url(../images/refugee.jpg); */
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
 .home-page-first-div {
-  padding: 14px;
   margin-bottom: 95px;
+  padding: 65px 23px;
 }
 
 .home-page-title {
@@ -163,8 +156,15 @@ body {
 }
 
 .date-paragraph {
-  font-size: 21px;
+  font-size: 25px;
   font-weight: bolder;
+  margin-bottom: 4px;
+  line-height: 1.2rem;
+}
+
+.location-paragraph {
+  font-size: 17px;
+  line-height: 23px;
 }
 
 .main-program-div {
@@ -175,6 +175,7 @@ body {
   background-repeat: round;
   background-size: contain;
   width: 100%;
+  padding-top: 36px;
 }
 
 .paragraph-border {
@@ -230,8 +231,8 @@ body {
   opacity: 0.8;
 }
 
-.all-wrappers {
-  margin: 25px 0;
+.featured-speaker-wrapper {
+  padding-top: 38px;
 }
 
 .featured-speakers-ul {
@@ -352,10 +353,12 @@ body {
 .footer-ul {
   width: 90%;
   margin: 4px auto;
+  padding-bottom: 40px;
 }
 
 .footer {
-  background-color: #fff;
+  background-color: #d3d3d3;
+  padding: 15px;
 }
 
 .first-footer-paragraph {
@@ -376,4 +379,5 @@ body {
 
 .partner-header {
   color: #fff;
+  padding-top: 50px;
 }
