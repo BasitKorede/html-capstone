@@ -23,10 +23,11 @@
   padding: 8px 16px;
   flex-direction: row;
   width: 75%;
+  margin-left: 10%;
 }
 
 .nav-ul-li {
-  margin: 0 24px;
+  margin: 0 3.5%;
 }
 
 .article-paragraph {

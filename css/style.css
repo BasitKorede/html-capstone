@@ -132,7 +132,7 @@ body {
 }
 
 .home-page {
-  background-image: url(../images/refugee.jpg);
+  /* background-image: url(../images/refugee.jpg); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -177,9 +177,16 @@ body {
   width: 100%;
 }
 
+.paragraph-border {
+  border-bottom: 2px solid #ec5242;
+  width: 28px;
+  margin: 10px auto;
+}
+
 .main-program-ul {
   background-color: #272a31;
-  margin: 24px 32px;
+  margin: 4px 22px;
+  align-items: center;
 }
 
 .main-program-ul-li {
@@ -196,25 +203,35 @@ body {
 }
 
 .main-program-button-div {
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 .join-button {
   background-color: #ec5242;
   opacity: 1;
-  padding: 12px 103px;
+  padding: 5%;
+  margin: 23px auto;
+  color: #fff;
+  font-size: 17px;
   display: block;
-  margin: 0 auto;
+}
+
+.join-button:hover {
+  opacity: 0.8;
 }
 
 .see-program {
   text-decoration: #fff underline;
-  font-size: 17px;
+  font-size: 20px;
   margin: 24px 0;
 }
 
 .join-anchore:hover {
   opacity: 0.8;
+}
+
+.all-wrappers {
+  margin: 25px 0;
 }
 
 .featured-speakers-ul {
@@ -343,8 +360,13 @@ body {
 
 .first-footer-paragraph {
   font-weight: bolder;
-  margin: 24px 0;
+  margin: 24px auto;
   line-height: 23px;
+  text-align: left;
+}
+
+.rights-reserved {
+  margin: 0 auto;
 }
 
 .second-footer-paragraph {
