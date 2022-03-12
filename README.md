@@ -110,9 +110,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- This is to Acknoledge the use of Cindy Chan design in building this.
+- Cindy Chan
+- Microvese
 
 ## 📝 License
 
