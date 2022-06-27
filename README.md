@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# MY PROFESSIONAL PORTFOLIO
+# REFUGEE FOOD FESTIVAL (Html/css capstone)
 
 > A capstone project that covers all what we have worked on in this particular module .
 
@@ -110,9 +110,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- This is to Acknoledge the use of Cindy Chan design in building this.
+- Cindy Chan
+- Microvese
 
 ## 📝 License
 
